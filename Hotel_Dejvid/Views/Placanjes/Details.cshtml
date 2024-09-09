@@ -1,0 +1,42 @@
+﻿@model Hotel_Dejvid.Models.Placanje
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Placanje</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RezervacijaId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RezervacijaId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Iznos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Iznos)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DatumPlacanje)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DatumPlacanje)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VrstaPlacanja)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VrstaPlacanja)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PlacanjeId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

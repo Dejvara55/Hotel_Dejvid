@@ -1,0 +1,128 @@
+﻿namespace Hotel_Dejvid.wwwroot.css
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* styles.css */
+
+
+
+/* Stil za header, ako je to mesto gde želiš da imaš pozadinsku sliku */
+header {
+    background-image: url('/images/pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; /* Prilagodi visinu prema potrebama */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Stil za jumbotron */
+.jumbotron {
+    text-align: center;
+    padding: 4rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Blago providna pozadina */
+}
+
+    .jumbotron h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .jumbotron p {
+        font-size: 1.2rem;
+    }
+
+    .jumbotron .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 0.25rem;
+    }
+
+        .jumbotron .btn:hover {
+            background-color: #0056b3;
+        }
+
+/* Stil za footer */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+    .navbar .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+.jumbotron {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    margin: 1rem 0;
+}
+
+    .jumbotron h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .jumbotron p {
+        font-size: 1.2rem;
+    }
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
